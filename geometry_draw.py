@@ -15,7 +15,7 @@ cv2.putText(img, 'Hello!', (0,100), font, 4, (255,0,255), 3, cv2.LINE_AA)
 
 cv2.imshow('Picture', img)
 
-cv2.imwrite('./OpenCV Tutorial/Image_Samples/Geometry.jpeg',img)
+cv2.imwrite('./OpenCV-Tutorial/Image_Samples/Geometry.jpeg',img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
