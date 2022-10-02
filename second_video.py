@@ -19,3 +19,12 @@ while footage.isOpened():
 
     if ret == True:
         cv2.imshow('Video', frame)
+        k = cv2.waitKey(20)
+        # when q is pressed the window will close
+        if k == ord('q'):
+            break
+    else:
+        break
+
+footage.release()
+cv2.destroyAllWindows()
