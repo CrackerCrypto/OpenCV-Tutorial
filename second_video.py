@@ -2,6 +2,8 @@
 import cv2
 from cv2 import CAP_PROP_FPS
 from cv2 import CAP_PROP_FRAME_COUNT
+from cv2 import CAP_PROP_FRAME_WIDTH
+from cv2 import CAP_PROP_FRAME_HEIGHT
 
 footage = cv2.VideoCapture('./OpenCV-Tutorial/Resources/Street - 19627.mp4')
 if footage.isOpened() == False:
@@ -13,6 +15,12 @@ else:
 
     frame_count = int(footage.get(CAP_PROP_FRAME_COUNT))
     print('Frame count: ', frame_count)
+
+    frame_width = int(footage.get(CAP_PROP_FRAME_WIDTH))
+    print("Frame width: ", frame_width)
+
+    frame_height = int(footage.get(CAP_PROP_FRAME_HEIGHT))
+    print("Frame height: ", frame_height)
 
 while footage.isOpened():
     ret, frame = footage.read()
