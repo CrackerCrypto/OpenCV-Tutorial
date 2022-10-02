@@ -1,8 +1,13 @@
 # OpenCV-Tutorial
 Keepinng a track of everything
+FOR IMAGE PART:
+------------------------
+
+
+FOR VIDEO PART:
+------------------------
 
 get(PROPERTY_NAME) is a method in VideoCapture which fetches all the meta data about any video file.
-
 Properties:
 --------------
     => CAP_PROP_FPS returns the number of frames per second of a video
