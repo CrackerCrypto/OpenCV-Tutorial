@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('./OpenCV-Tutorial/Image_Samples/butterfly.jpeg')
+img = cv2.imread('./Image_Samples/butterfly.jpeg')
 
 cv2.imshow('Original Image', img)
 

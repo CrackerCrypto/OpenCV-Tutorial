@@ -5,7 +5,7 @@ from cv2 import CAP_PROP_FRAME_COUNT
 from cv2 import CAP_PROP_FRAME_WIDTH
 from cv2 import CAP_PROP_FRAME_HEIGHT
 
-footage = cv2.VideoCapture('./OpenCV-Tutorial/Resources/Street - 19627.mp4')
+footage = cv2.VideoCapture('./Resources/Street - 19627.mp4')
 if footage.isOpened() == False:
     print('There is an error in playing')
 else:
