@@ -1,5 +1,5 @@
 # OpenCV-Tutorial
-Keepinng a track of everything
+Keeping a track of everything
 FOR IMAGE PART:
 ------------------------
 
