@@ -3,7 +3,6 @@ Keeping a track of everything
 FOR IMAGE PART:
 ------------------------
 
-
 FOR VIDEO PART:
 ------------------------
 Fourcc - Fourcc stands for four character code defines the video codec of a media file. Fourcc is a 32bit ASCII character
