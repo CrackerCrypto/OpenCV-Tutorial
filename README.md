@@ -11,6 +11,7 @@ code where each character is having 8bits.
     A video codec is a software or hardware for compressing or decompressing a digital video.
 
 get(PROPERTY_NAME) is a method in VideoCapture which fetches all the meta data about any video file.
+
 Properties:
 ------------------------
     => CAP_PROP_FPS returns the number of frames per second of a video
