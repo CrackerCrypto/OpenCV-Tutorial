@@ -1,4 +1,4 @@
-''' This is a practice file where gridlines are created using cv2.line() 
+''' This is an exercise where gridlines are created using cv2.line() 
 P.S - Only for practice...'''
 import cv2
 
@@ -11,20 +11,23 @@ img_width = img.shape[1]
 
 Y = img_height//3
 X = img_width//3
-
+count = 0
 for y in range(0, img_height, Y):
     for x in range(0, img_width, X):
-        if (img_height - y) < Y or (img_width - x)< X:
+        if (img_height - y) < Y or (img_width - x) < X:
             break
 
         y1 = y + Y
         x1 = x + X
-        
+        # TODO: The following is just a calculation                    
         # y1 = 0+111=111
         # x1 = 0+166=166
+
+        if count < 2:
+            cv2.line(img, (x1,0), (x1,img_height),(255,255,255), 1)
+            count += 1
         
-        cv2.line(img, (x1,0), (x1,img_height),(0,0,255), 1)
-        cv2.line(img, (0,y1), (img_width,y1), (0,0,255), 1)
+    cv2.line(img, (0,y1), (img_width,y1), (255,255,255), 1)
 
 
 cv2.imshow('Grid Image', img)
