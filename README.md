@@ -10,6 +10,7 @@ code where each character is having 8bits.
     A video codec is a software or hardware for compressing or decompressing a digital video.
 
 get(PROPERTY_NAME) is a method in VideoCapture which fetches all the meta data about any video file.
+set(PROPERTY_NAME, value) is a method in VideoCapture which set the desired property with the value given.
 
 Properties:
 ------------------------
