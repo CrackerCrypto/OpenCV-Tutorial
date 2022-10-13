@@ -3,7 +3,9 @@ Keeping a track of everything
 FOR IMAGE PART:
 ------------------------
 -> Cropping an image is somewhat similar to slicing an array. So, to slice an array we need to know about starting index and ending index as well.
+
 -> Translation of an image...
+
 -> Rotation of an image...
 
 FOR VIDEO PART:
